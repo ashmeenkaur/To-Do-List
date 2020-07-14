@@ -1,0 +1,88 @@
+body{
+    background: #5ad1ad;
+	background: -webkit-linear-gradient(to right, #5ad1ad, #0513d6 160%);
+    background: -moz-linear-gradient(to right, #5ad1ad, #0513d6 160%);
+    background: -o-linear-gradient(to right, #5ad1ad, #0513d6 160%);
+    background: linear-gradient(to right, #5ad1ad, #0513d6 160%);
+    margin: 2%;
+}
+
+header{
+    text-align: center;
+    margin: 1.5% auto;
+    padding: 2% 0;
+    background-color: #ffffff11;
+    width: 40%;
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 2%; 
+    color: #230064;
+}
+
+#Input{
+    padding: 0 3%;
+    width: 60%;
+    height: 30px;
+    margin: 2px 0;
+    border: 2px solid #030b7a;
+}
+
+.addBtn{
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+    padding: 7px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 2px 0;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    border: 2px solid #030b7a;
+}
+
+.addBtn:hover {
+    background-color: #0d136e;
+    color: white;
+}
+
+ul{
+    margin: 0 auto;
+    padding: 0;
+    width: 40%;
+}
+
+ul li {
+    cursor: pointer;
+    padding: 8px;
+    margin: 2px;
+    background: rgb(224, 245, 255);
+    font-size: 18px;
+    transition: 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    list-style: none;
+    
+}
+
+ul li:nth-child(odd) {
+    background: #e6fdf9;
+}
+
+ul li:hover{
+    opacity: .6;
+}
+
+ul li.checked {
+    background: rgb(73, 146, 146);
+    color: #fff;
+    text-decoration: line-through;
+}
+
