@@ -6,26 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo-List</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/3f463f2987.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-
+    
     <header>
         <h1>My To-Do List </h1>
         <input type="text" id="Input" placeholder="Add New Todo.">
-        <span onclick="newElement()" class="addBtn">Add</span>
+        <span onclick="newTodo()" id="addBtn">Add</span>
     </header>
 
-    <ul id="myTodo">
-        <li>Dishes</li>
-        <li class="checked"> Watch tutorial</li>
-        <li>Complete assignments</li>
-        <li>Get groceries</li>
-        <li>Paint</li>
-        <li>Water plants</li>
+    <ul id="myTodoList">
+        <!-- <li> <span class="task">Dishes</span>
+            <span class="close">&#x00D7</span><span class="complete">&#x2713</span>
+        </li>
+        <li> <span class="checked task">Complete Assignment</span>
+            <span class="close">&#x00D7</span><span class="complete">&#x2713</span>
+        </li>
+        <li><span class="task">Get groceries</span>
+            <span class="close">&#x00D7</span><span class="complete">&#x2713</span>
+        </li>
+        <li><span class="task">Code</span>
+            <span class="close">&#x00D7</span><span class="complete">&#x2713</span>
+        </li>
+        <li><span class="task">Water plants</span>
+            <span class="close">&#x00D7</span><span class="complete">&#x2713</span>
+        </li> -->
     </ul>
 
+    <script src="js/function.js"></script>
 </body>
 
 </html>
